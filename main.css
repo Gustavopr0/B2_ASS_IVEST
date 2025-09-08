@@ -1,0 +1,1592 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::selection {
+    background-color: rgba(231, 172, 62, 0.336);
+    color: rgba(255, 255, 255, 0.767);
+}
+
+header {
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(140, 140, 140, 0.2);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1100;
+    /*box-shadow: 0px 10px 50px -25px #000;*/
+}
+
+.B2Cabeça {
+    margin: 15px 53px 15px 88px;
+    height: 115px;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.B2Cabeça img {
+    padding: 0px;
+    width: 280px;
+}
+
+
+.LinkTop1 {
+    margin-left: 55%;
+    display: flex;
+}
+
+.LinkTop1 a {
+    width: 215px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    justify-content: end;
+    text-decoration: none;
+}
+
+.HomeX {
+    display: none;
+    margin-right: 5px;
+    padding: 10px 10px;
+    color: #030202;
+    border-bottom: 0.2px solid #030202;
+}
+
+.ContatoX {
+    margin-left: 5px;
+    padding: 20px 30px;
+    background-image: radial-gradient(circle at 83.5% 108.02%, #fffac0 0, #fbe7a8 16.67%, #ebd08c 33.33%, #d8b46c 50%, #c5994d 66.67%, #b68234 83.33%, #ab6f21 100%);
+    color: #000000;
+    transition: all ease 0.5s;
+    border-radius: 0 0 0 30px;
+}
+
+.ContatoX:hover {
+    transition: all ease 0.5s;
+    color: #000000;
+    border-bottom: 7px solid #d8b46c;
+}
+
+#corpo1 {
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 145px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('./imagens/FndBlaclGold-0.png');
+}
+
+#corpo1 img {
+    display: none;
+    padding: 0;
+    width: 800px;
+}
+
+.Ctb4 {
+    font-style: inherit;
+    font-weight: 100;
+    font-size: 34px;
+    color: #fff;
+    line-height: 0.7;
+    width: 510px;
+}
+
+
+.CorDife {
+    color: #d8b46c;
+}
+
+
+
+.alinhadosZX a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius:0 0 0 30px;
+    border: none;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 15px;
+    padding: 13px 10px;
+    width: 62%;
+    background-image: radial-gradient(circle at 83.5% 108.02%, #fffac0 0, #fbe7a8 16.67%, #ebd08c 33.33%, #d8b46c 50%, #c5994d 66.67%, #b68234 83.33%, #ab6f21 100%);
+    color: #000;
+    margin-top: 20px;
+    transition: all ease 0.5s;
+}
+
+.alinhadosZX a:hover {
+    transition: all ease 0.5s;
+    color: #fff;
+}
+
+.alinhadosZX span, 
+.separadorP{
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+#corpo1 .FGtrX {
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transform: translate(-28%, 10%);
+}
+
+.alinhadosZX {
+    margin-right: 55px;
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.FGtrX h1 {
+    font-family: "Freeman", sans-serif;
+    font-weight: 700;
+    letter-spacing: -2px;
+    margin-bottom: 20px;
+    width: 700px;
+    line-height: 1.0;
+}
+
+
+.ERgt01 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.ERgt0 {
+    margin-right: 55px;
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragraph00 {
+    color: #ebeaea;
+    letter-spacing: 0.2px;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    display: flex;
+    margin-bottom: 25px;
+}
+
+
+.Centralizando {
+    width: 100%;
+    background-image: url('./imagens/comtinuablackout-001.png');
+    padding: 70px;
+    /*position: absolute;*/
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.Centralizando img {
+    width: 700px;
+}
+
+
+
+
+
+.secaotd-02 {
+    
+    padding: 0 0 40px 0;
+    background-color: #d9d9d9;
+    background-image: url('./imagens/sombracomfundosec02.png');
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    height: 1140px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+}
+
+.secaotd-02 h2 {
+    color: #1b1b1b;
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    line-height: 0.9;
+    margin-top: 10px;
+}
+
+.secaotd-02 p {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.secaotd-02 span {
+    
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 21px;
+    font-weight: 600;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.partecimasec02 {
+    width: 100%;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.elementsec02 {
+    padding: 0 25px;
+    transform: translate(-50%, 80%);
+}
+
+.elmetsec02 {
+    padding: 0 25px;
+    transform: translate(0%, -25%);
+}
+
+#secoa-02 {
+    width: 950px;
+}
+
+#secoa-02 h2, p {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.secaotd-02 img {
+    padding: 0 25px;
+    width: 512px;
+}
+
+.imagesec02 {
+    margin: 0;
+    transform: translate(40%, 50%);
+}
+
+.elementobaixosec02 {
+    width: 500px;
+    transform: translate(20%, 35%);
+}
+
+
+
+
+
+
+
+
+
+.secc03 {
+    background-color: #1b1b1b;
+}
+
+#sec-3 {
+    height: 800px;
+    background-image: url('./imagens/fndsec-03-.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    padding: 20px 5px;
+}
+
+.secao030 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.WWQsEc03 {
+    height: 2px;
+    background-color: #1b1b1b;
+    border: none;
+    display: flex;
+    width: 350px;
+    justify-content: center;
+}
+
+.sec-h303 {
+    display: flex;
+}
+
+.parsec03 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tdsec-03 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parsec03 hr {
+    margin: 15px 0;
+    width: 350px;
+}
+
+.parsec03 h3 {
+    color: #1b1b1b;
+    letter-spacing: -2px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin: 8px 0 15px 0;
+    width: 570px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.imgstextsec3 {
+    display: flex;
+}
+
+.i9Xs03 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.i9Xs03 img {
+    width: 550px;
+}
+
+.planeja03 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 490px;
+    color: #fff;
+    transform: translate(0%, -135%);
+}
+
+.i9Xs03 h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.i9Xs03 p {
+    font-family: "Ubuntu Sans", sans-serif;
+    width: 350px;
+    font-size: 17px;
+}
+
+.LXsec003 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.Pri03 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    transform: translate(0%, -135%);
+    width: 490px;
+    color: #fff;
+}
+
+.LXsec003 img {
+    width: 550px;
+}
+
+.LXsec003 h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.LXsec003 p {
+    font-family: "Ubuntu Sans", sans-serif;
+    width: 390px;
+    font-size: 17px;
+}
+
+.HRXXSEEC3 {
+    height: 2px;
+    background-color: #d9d9d9;
+    border: none;
+    width: 590px;
+    margin-top: -10.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cadast7 {
+    padding: 85px 50px;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#secXX1 {
+    color: #1b1b1b;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+.PariMG {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.PariMG img {
+    margin: 30px 110px;
+    width: 400px;
+}
+
+.Symbo {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Symbo h3 {
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.ROnb {
+    margin: 0 6px;
+    color: yellow;
+}
+
+.Symbo9 {
+    display: flex;
+}
+
+.Symbo01 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+}
+
+.Symbo87 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colunadoH {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.text-alin0 {
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 30px;
+    display: flex;
+    font-size: 60px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.surrQ {
+    line-height: 0.8;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    margin-top: 130px;
+}
+
+.text-alin1 {
+    font-style: oblique;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 50px;
+    width: 600px;
+}
+
+.text-alin9 {
+    font-style: italic;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin-top: -20px;
+    font-size: 50px;
+    width: 500px;
+}
+
+.yellow-word {
+    color: #d8b46c; /* Define a cor amarela para a palavra */
+    vertical-align: super; /* Alinha a palavra acima da linha de base */
+}
+
+.quotation-mark {
+    color: #d8b46c; /* Define a cor amarela para as aspas */
+}
+
+.yellow-word5 {
+    color: #1b1b1b;
+    vertical-align: super;
+}
+
+
+.text-alin1 .textCC {
+    color: #d8b46c;
+    display: flex;
+    flex-direction: column;
+}
+
+.textCC .textXX {
+    display: flex;
+    text-align: center;
+}
+
+.Aspaxz {
+    color: #d8b46c;
+}
+
+.Aspax {
+    color: #d8b46c;
+}
+
+.texT56 {
+    font-family: "Ubuntu Sans", sans-serif;
+    width: 365px;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 70px 0;
+}
+
+.colunadoH h4 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    letter-spacing: -0.5px;
+    margin-bottom: 20px;
+}
+
+#FormuI7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.Ppbutton6 {
+    text-decoration: none;
+}
+
+#FormuI7 input, label {
+    display: none;
+}
+
+.FOrmZS a {
+    color: #030202;
+    margin-left: 55px;
+    font-size: 20px;
+    border-radius: 0 0 0 30px;
+    background-image: radial-gradient(circle at 83.5% 108.02%, #fffac0 0, #fbe7a8 16.67%, #ebd08c 33.33%, #d8b46c 50%, #c5994d 66.67%, #b68234 83.33%, #ab6f21 100%);
+    padding: 15px 50px;
+    text-decoration: underline;
+    transition: all ease 0.5s;
+}
+
+.FOrmZS a:hover {
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+.FOrmZS h1 {
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.LINkarty {
+    color: #f0f0f0;
+}
+
+
+
+
+
+#FormuI7 input {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 600;
+    outline: none;
+    margin-top: 1px;
+    margin-bottom: 25px;
+    padding: 12px 15px;
+    width: 470px;
+}
+
+.FOrmZS form {
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+.FOrmZS button {
+    text-decoration: none;
+    border-radius: 5px;
+    width: 150px;
+    padding: 12px;
+    border: none;
+    background-color: #007b7b;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family: "Ubuntu Sans", sans-serif;
+}
+
+#Footer-0 {
+    padding: 75px 1px 170px 1px;
+    background-color: #1b1b1b;
+    display: flex;
+    justify-content: center;
+}
+
+.CxFoot {
+    display: flex;
+    justify-content: center;
+}
+
+#Footer-0 img {
+    margin-top: 30px;
+    width: 28px;
+}
+
+
+.Name-Empre {
+    font-weight: 700;
+    font-size: 18px;
+    width: 262px;
+    margin-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Name-Empre p {
+    color: #d9d9d9;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+}
+
+.AImage {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Contato-00 {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Contato-00 h4 {
+    color: #d9d9d9;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.ContatX {
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+.Contato-00 p {
+    width: 300px;
+    color: #d9d9d9;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.Location-X {
+    font-size: 20px;
+}
+
+.Location-X h4 {
+    color: #d9d9d9;
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+}
+
+.Loc-ZX {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-right: 0px;
+}
+
+.Location-X p {
+    color: #d9d9d9;
+    font-family: "Ubuntu Sans", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.colunadoH img {
+    transform: translate(165%, 30%);
+    margin-top: 10px;
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+    ::selection {
+        background-color: rgba(231, 172, 62, 0.336);
+        color: rgba(255, 255, 255, 0.767);
+    }
+    
+    header {
+        align-items: center;
+        width: 100%;
+        background-color: #fff;
+        border-bottom: 1px solid rgba(140, 140, 140, 0.2);
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 1100;
+        /*box-shadow: 0px 10px 50px -25px #000;*/
+    }
+    
+    .B2Cabeça {
+        margin: 15px 50px 15px 50px;
+        height: 70px;
+        background-color: #fff;
+        align-items: center;
+        flex-direction: row;
+        display: flex;
+    }
+    
+    .B2Cabeça img {
+        padding: 0px;
+        width: 180px;
+    }
+    
+    
+    .LinkTop1 {
+        margin-left: 25%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .LinkTop1 a {
+        width: 100px;
+        font-family: "Ubuntu Sans", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 3px;
+        justify-content: center;
+        text-decoration: none;
+        text-align: center;
+    }
+    
+    .HomeX {
+        display: none;
+        margin-right: 0;
+        padding: 10px 10px;
+        color: #030202;
+        border-bottom: 0.2px solid #030202;
+    }
+    
+    .ContatoX {
+        margin-left: 0;
+        padding: 10px 10px;
+        color: #030202;
+        background-color: #fff;
+        transition: all ease 0.5s;
+        font-weight: 400;
+    }
+    
+    .ContatoX:hover {
+        transition: all ease 0.5s;
+        color: #030202;
+        border-bottom: none;
+    }
+    
+    #corpo1 img {
+        width: 500px;
+    }
+    #corpo1 {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #1b1b1b;
+        background-image: none;
+    }
+    
+    #corpo1 img {
+        display: flex;
+        padding: 0;
+        width: 100%;
+        transform: translate(0%, 25%);
+    }
+    
+    .Ctb4 {
+        font-style: inherit;
+        font-weight: 100;
+        font-size: 23px;
+        color: #fff;
+        line-height: 0.8;
+        width: 100%;
+        padding: 0 7px;
+        transform: translate(0%, 0%);
+    }
+    
+    
+    .CorDife {
+        font-family: "Montserrat", sans-serif;
+        color: #d8b46c;
+    }
+    
+    
+    
+    .alinhadosZX a {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        border-radius:0 0 0 30px;
+        border: none;
+        font-family: "Ubuntu Sans", sans-serif;
+        font-size: 15px;
+        padding: 13px 10px;
+        width: 62%;
+        background-color: #d8b46c;
+        color: #000;
+        margin: 20px 0px 20px 0px;
+        transition: all ease 0.5s;
+    }
+    
+    .alinhadosZX a:hover {
+        transition: all ease 0.5s;
+        color: #fff;
+    }
+    
+    .alinhadosZX span, 
+    .separadorP{
+        font-family: "Ubuntu Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        font-variation-settings:"wdth" 100;
+        font-size: 17px;
+        font-weight: 400;
+        margin-bottom: 20px;
+    }
+    
+    #corpo1 .FGtrX {
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        transform: translate(0%, 0%);
+    }
+    
+    .alinhadosZX {
+        margin-right: 0;
+        margin-top: 0px;
+        display: flex;
+        align-items: normal;
+        justify-content: center;
+        flex-direction: column;
+
+        align-items: center;
+    }
+    
+    .FGtrX h1 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        letter-spacing: -2px;
+        margin-bottom: 20px;
+        width: 100%;
+        line-height: 1.0;
+    }
+    
+    
+    .ERgt01 {
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .ERgt0 {
+        margin-right: 55px;
+        width: 520px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .paragraph00 {
+        color: #ebeaea;
+        letter-spacing: 0.2px;
+        font-family: "Ubuntu Sans", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        display: flex;
+        margin-bottom: 25px;
+    }
+    
+    
+    .Centralizando {
+        width: 100%;
+        background-image: url('./imagens/comtinuablackout-001.png');
+        padding: 70px;
+        /*position: absolute;*/
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .Centralizando img {
+        width: 700px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .secaotd-02 {
+        background-image: url('./imagens/sombracomfundosec02.png');
+        background-repeat: no-repeat;
+        background-size: 100% 27%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: flex-start;
+    }
+    
+    .secaotd-02 {
+        background-color: #d9d9d9;
+        height: auto;
+    }
+
+    .secaotd-02 h2 {
+        color: #1b1b1b;
+        letter-spacing: -0.7px;
+        margin: 7px 0 15px 0;
+        line-height: 1.0;
+        font-size: 22px;
+        font-weight: 700;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    .secaotd-02 p, span {
+        
+        font-family: "Ubuntu Sans", sans-serif;
+    }
+
+    .secaotd-02 p {
+        font-size: 15.7px;
+        line-height: 1.2;
+        margin-bottom: 55px;
+    }
+
+    .secaotd-02 span {
+        color: rgba(0, 0, 0, 0.829);
+        line-height: 1.0;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .partecimasec02 {
+        width: 100%;
+        padding: 20px 20px 0 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    .elementsec02 {
+        padding: 0 ;
+        transform: translate(0%, 0%);
+    }
+    
+    .elmetsec02 {
+        padding: 0 0 0 0 ;
+        transform: translate(0%, 0%);
+    }
+    
+    #secoa-02 {
+        width: 100%;
+    }
+    
+    #secoa-02 h2, p {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    
+    .secaotd-02 img {
+        padding: 0 25px;
+        width: 370px;
+    }
+    
+    .imagesec02 {
+        margin: 0;
+        transform: translate(0%, 4.5%);
+    }
+    
+    .elementobaixosec02 {
+        padding: 0px 20px 20px 20px;
+        width: 100%;
+        transform: translate(0%, 0%);
+    }
+
+
+
+
+
+
+
+
+    .secc03 {
+        background-image: url('./imagens/fndcellinvertidosec-03.png');
+        background-repeat: no-repeat;
+        background-size: 430px 320px;
+        background-position: bottom;
+        background-color: #1b1b1b;
+    }
+    
+    #sec-3 {
+        height: auto;
+        background-image: url('./imagens/fndcellcimasec-03.png');
+        background-repeat: no-repeat;
+        background-size: 430px 270px;
+        background-position: top;
+        padding: 0;
+    }
+    
+    .secao030 {
+        padding: 35px 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .WWQsEc03 {
+        height: 2px;
+        background-color: #1b1b1b;
+        border: none;
+        display: flex;
+        width: 150px;
+        justify-content: center;
+    }
+    
+    .sec-h303 {
+        display: flex;
+    }
+    
+    .parsec03 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .tdsec-03 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .parsec03 hr {
+        margin: 15px 0;
+        width: 350px;
+    }
+    
+    .parsec03 h3 {
+        color: #d9d9d9;
+        letter-spacing: -2px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 37px;
+        margin: 25px 0 15px 0;
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+    
+    .imgstextsec3 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .i9Xs03 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+    
+    .i9Xs03 img {
+        width: 100%;
+        margin: 30px 0 15px 0;
+    }
+    
+    .planeja03 {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        width: 100%;
+        color: #d9d9d9;
+        transform: translate(0%, -85%);
+        padding: 0 7px;
+    }
+    
+    .i9Xs03 h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 27px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    
+    .i9Xs03 p {
+        font-family: "Ubuntu Sans", sans-serif;
+        width: 100%;
+        font-size: 17px;
+    }
+    
+    .LXsec003 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        transform: translate(0%, -13%);
+    }
+    
+    .Pri03 {
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        transform: translate(0%, -85%);
+        width: 100%;
+        color: #d9d9d9;
+        padding: 0 7px;
+    }
+    
+    .LXsec003 img {
+        width: 100%;
+        margin: 30px 0 15px 0;
+    }
+    
+    .LXsec003 h4 {
+        font-family: "Montserrat", sans-serif;
+        font-size: 27px;
+        font-weight: 800;
+        margin-bottom: 10px;
+    }
+    
+    .LXsec003 p {
+        font-family: "Ubuntu Sans", sans-serif;
+        width: 100%;
+        font-size: 17px;
+    }
+    
+    .HRXXSEEC3 {
+        height: 2px;
+        background-color: #1b1b1b;
+        border: none;
+        width: 210px;
+        margin-top: -36px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .cadast7 {
+        padding: 15px 20px 0px 20px;
+        background-color: #d9d9d9;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    #secXX1 {
+        color: #1b1b1b;
+        /*display: flex;
+        flex-direction: column;
+        align-items: center;*/
+    }
+    
+    .PariMG {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    
+    
+    .PariMG img {
+        margin: 0;
+        width: 380px;
+    }
+    
+    .Symbo {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Symbo h3 {
+        font-style: italic;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+    
+    .ROnb {
+        margin: 0 6px;
+        color: #d8b46c;
+    }
+    
+    .Symbo9 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .Symbo01 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .Symbo87 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .colunadoH {
+        padding: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .text-alin0 {
+        margin-bottom: 30px;
+        display: flex;
+        font-size: 32px;
+        font-weight: 900;
+        font-style: italic;
+    }
+    
+    .surrQ {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    
+    .text-alin1 {
+        font-family: "Montserrat", sans-serif;
+        font-style: oblique;
+        letter-spacing: -2px;
+        font-weight: 900;
+        font-size: 35px;
+        width: 100%;
+    }
+    
+    .text-alin9 {
+        font-style: italic;
+        letter-spacing: 1px;
+        font-weight: 600;
+        margin-top: 0;
+        font-size: 35px;
+        width: 100%;
+    }
+    
+    .yellow-word {
+        color: #d8b46c; /* Define a cor amarela para a palavra */
+        vertical-align: super; /* Alinha a palavra acima da linha de base */
+    }
+    
+    .quotation-mark {
+        color: #d8b46c; /* Define a cor amarela para as aspas */
+    }
+    
+    .yellow-word5 {
+        color: #1b1b1b;
+        vertical-align: super;
+    }
+    
+    
+    .text-alin1 .textCC {
+        color: #d8b46c;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .textCC .textXX {
+        display: flex;
+        text-align: center;
+    }
+    
+    .Aspaxz {
+        color: #d8b46c;
+    }
+    
+    .Aspax {
+        color: #d8b46c;
+    }
+    
+    .texT56 {
+        font-family: "Ubuntu Sans", sans-serif;
+        width: 100%;
+        font-size: 16px;
+        font-weight: 500;
+        margin: 70px 0;
+    }
+    
+    .colunadoH h4 {
+        font-size: 20px;
+        letter-spacing: -0.5px;
+        margin-bottom: 20px;
+    }
+    
+    #FormuI7 {
+        font-size: 13px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        align-items: center;
+    }
+    
+    
+    
+    #FormuI7 input {
+        font-family: "Ubuntu Sans", sans-serif;
+        font-weight: 600;
+        outline: none;
+        margin-top: 1px;
+        margin-bottom: 25px;
+        padding: 12px 15px;
+        width: 250px;
+    }
+    
+    .FOrmZS form {
+        font-family: "Ubuntu Sans", sans-serif;
+    }
+    
+.FOrmZS h1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+
+    .FOrmZS a {
+        height: 40px;
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0 0 0 25px;
+        color: #030202;
+        font-size: 13px;
+        width: 160px;
+        padding: 10px 10px;
+        border: none;
+        background-image: radial-gradient(circle at 83.5% 108.02%, #fffac0 0, #fbe7a8 16.67%, #ebd08c 33.33%, #d8b46c 50%, #c5994d 66.67%, #b68234 83.33%, #ab6f21 100%);
+        font-weight: 800;
+        font-family: "Ubuntu Sans", sans-serif;
+    }
+
+    /*.secaotd-02 p, span {
+        line-height: 0.2;
+        font-weight: 600;
+        font-family: "Montserrat", sans-serif;
+    }*/
+
+
+    #Footer-0 {
+        padding: 35px 40px 20px 40px;
+        background-color: #1b1b1b;
+        display: flex;
+        justify-content: start;
+    }
+    
+    .CxFoot {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    #Footer-0 img {
+        margin-top: 15px;
+        width: 28px;
+    }
+    
+    
+    .Name-Empre {
+        color: #d9d9d9;
+        font-weight: 600;
+        font-size: 22px;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .Name-Empre p {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+    
+    .AImage {
+        display: flex;
+        justify-content: start;
+    }
+
+    .Nuve0 {
+        margin-right: 10px;
+    }
+
+    .Nuve1 {
+        margin-right: 10px;
+    }
+    
+    .Contato-00 {
+        color: #d9d9d9;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    
+    .Contato-00 h4 {
+        font-family: "Montserrat", sans-serif;
+        font-style: italic;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .ContatX {
+        text-decoration: none;
+        margin-top: 15px;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .Tel-Fixx {
+        text-decoration: none;
+    }
+    
+    .Contato-00 p {
+        font-family: "Ubuntu Sans", sans-serif;
+        color: #d9d9d9;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 17px;
+    }    
+    
+    .Location-X {
+        color: #d9d9d9;
+        font-weight: 600;
+        font-size: 22px;
+    }
+    
+    .Location-X h4 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+    
+    .Loc-ZX {
+        font-family: "Ubuntu Sans", sans-serif;
+        font-size: 17px;
+        margin-top: 15px;
+        margin-right: 0;
+    }
+    
+    .Location-X p {
+        font-family: "Ubuntu Sans", sans-serif;
+        font-weight: 400;
+        font-size: 17px;
+    }
+    
+    .colunadoH img {
+        margin-top: 10px;
+        width: 110px;
+        transform: translate(0%, 1.5%);
+    }
+
+
+
+
+
+}
